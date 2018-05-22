@@ -1,0 +1,3 @@
+electrum_mrng
+electrum_mrng_gui
+electrum_mrng_plugins

@@ -1,0 +1,10 @@
+pyaes
+ecdsa>=0.9
+pbkdf2
+requests
+qrcode
+ltc_scrypt
+protobuf
+dnspython
+jsonrpclib
+PySocks>=1.6.6
