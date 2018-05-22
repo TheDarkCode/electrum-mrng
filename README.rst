@@ -7,7 +7,7 @@ Electrum-MRNG - Lightweight MorningStar client
   Original Author: Thomas Voegtlin
   Port Maintainer: Eddy Smith
   Language: Python
-  Homepage: https://mrng.io/
+  Homepage: https://morningstarpayments.xyz/
 
 
 
@@ -47,7 +47,7 @@ Development version
 
 Check out the code from Github::
 
-    git clone git://github.com/MorningStarTeam/electrum-mrng.git
+    https://github.com/MorningStarDev/electrum-mrng.git
     cd electrum-mrng
 
 Run install (this should install dependencies)::
