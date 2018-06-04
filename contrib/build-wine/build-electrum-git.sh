@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # You probably need to update only this link
-ELECTRUM_GIT_URL=git://github.com/MorningStarTeam/electrum-mrng.git
+ELECTRUM_GIT_URL=https://github.com/MorningStarDev/electrum-mrng
 BRANCH=master
 NAME_ROOT=electrum-mrng
 
