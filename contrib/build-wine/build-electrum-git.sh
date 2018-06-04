@@ -19,7 +19,7 @@ set -e
 
 cd tmp
 
-if [ -d "electrum-mrng-git" ]; then
+if [ -d "electrum-mrng" ]; then
     # GIT repository found, update it
     echo "Pull"
     cd electrum-mrng
