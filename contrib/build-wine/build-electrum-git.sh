@@ -22,24 +22,24 @@ cd tmp
 if [ -d "electrum-mrng-git" ]; then
     # GIT repository found, update it
     echo "Pull"
-    cd electrum-mrng-git
+    cd electrum-mrng
     git pull
     git checkout $BRANCH
     cd ..
 else
     # GIT repository not found, clone it
     echo "Clone"
-    git clone -b $BRANCH $ELECTRUM_GIT_URL electrum-mrng-git
+    git clone -b $BRANCH $ELECTRUM_GIT_URL electrum-mrng
 fi
 
-cd electrum-mrng-git
+cd electrum-mrng
 VERSION=2.9.3.1.3
 echo "Last commit: $VERSION"
 
 cd ..
 
 rm -rf $WINEPREFIX/drive_c/electrum-mrng
-cp -r electrum-mrng-git $WINEPREFIX/drive_c/electrum-mrng
+cp -r electrum-mrng $WINEPREFIX/drive_c/electrum-mrng
 #cp electrum-mrng-git/LICENCE .
 
 # add python packages (built with make_packages)
